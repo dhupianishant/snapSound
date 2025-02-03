@@ -1,0 +1,23 @@
+# Node.js modules
+node_modules/
+
+# React build output
+build/
+
+# Environment variable file for frontend (if used)
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

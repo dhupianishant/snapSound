@@ -1,0 +1,27 @@
+# Node.js modules
+node_modules/
+
+# Environment variable file for backend API keys
+.env
+
+# Logs
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Uploads directory (if using local storage for uploaded images)
+uploads/
+
+# Backend build output (if any)
+build/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
