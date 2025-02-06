@@ -21,7 +21,6 @@ Thumbs.db
 *.sublime-project
 
 # Frontend build output
-frontend/build/
 
 # Backend build output (if any)
 backend/build/

@@ -27,7 +27,7 @@ const ImageUploader = ({ setSongs }) => { // Receive setSongs as a prop
 
     setLoading(true);
     try {
-      const response = await fetch("http://localhost:5000/analyze-image", {
+      const response = await fetch("https://snapsound.onrender.com/analyze-image", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ imageBytes: base64Image }),
