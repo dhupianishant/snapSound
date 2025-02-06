@@ -1,0 +1,41 @@
+.landing-page {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+
+.landingPageBranding {
+      font-family: "Jersey 20 Charted", serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 70px;
+      color: white;
+}
+
+.landingPageSlogan {
+      font-family: "Jersey 20", serif;
+      margin-top: -35px;
+      color: white;
+      font-size: 32px;
+}
+
+.landing-page button {
+      font-family: "Jersey 20", serif;
+      margin-top: 20px;
+      padding: 10px 15px;
+      font-size: 20px;
+      border: none;
+      cursor: pointer;
+      background: #28282B;
+      color: white;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      border-radius: 10px;
+      transition: 0.3s;
+}
+
+.landing-page button:hover {
+      background: black;
+
+}
